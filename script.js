@@ -5,22 +5,22 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	function getter(){
+	getter(){
 		return this.name;
 	}
-	function setter(age){
+	setter(age){
 		this.age = age;
 	}
 }
 
 class Student extends Person {
-		function study(){
+	study(){
 			console.log(`${this._name} is studying.`);
 		}
 }
 
 class Teacher extends Person {
-	function teach(){
+ teach(){
 			console.log(`${this._name} is teaching.`);
 		}
 }
