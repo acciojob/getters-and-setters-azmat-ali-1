@@ -1,5 +1,7 @@
 //complete this code
 class Person {
+	let name;
+	let age;
   constructor(name, age) {
     this.name = name;
     this.age = age;
